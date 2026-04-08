@@ -1,86 +1,115 @@
 # ✨ Awesome Personalized Skills
 
+<div align="center">
+
 ### 人类群星闪耀时
 
-> 你是万千星辰中的一颗，于某个 Ta 而言却是整个世界。
->
+> 你是万千星辰中的一颗，于某个 Ta 而言却是整个世界。  
 > *You are one star among countless others; to someone, you are an entire world.*
 
----
+[![Stars](https://img.shields.io/github/stars/Huafucius/awesome-personalized-skills?style=flat-square)](https://github.com/Huafucius/awesome-personalized-skills/stargazers)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](./CONTRIBUTING.md)
+[![Chinese First](https://img.shields.io/badge/language-Chinese%20First-red?style=flat-square)](#)
+[![Curated Index](https://img.shields.io/badge/index-curated-blue?style=flat-square)](#)
 
-将人类历史上最伟大的头脑，从书架上请下来，变成你指尖可调用的 **Claude Code Skill**。不是角色扮演，不是 cosplay —— 而是把经过时间检验的**思维框架**提取为可复用的问题拆解引擎。
+一个面向 **Claude Code / AI Coding Agents** 的精选索引。  
+不收空洞的角色扮演，不收泛化的大杂烩。  
+这里只收 **真实存在**、**公开可访问**、并且能明确归属到 **人物**、**书籍**，或服务于 **真实人物蒸馏** 的 personalized skills repositories。
 
-每一颗星辰都是一套经过淬炼的认知操作系统。现在，它们为你所用。
+*A Chinese-first curated index of real personalized skill repositories for Claude Code and AI coding agents.*
 
-*Bring history's greatest minds down from the bookshelf and into your fingertips as **Claude Code Skills**. Not role-playing, not cosplay — but extracting time-tested **thinking frameworks** into reusable engines for breaking down real problems.*
+[浏览名人](#名人--figures) · [浏览书籍](#书籍--books) · [提交收录](#贡献--contributing)
 
-*Each star is a battle-hardened cognitive operating system. Now, they work for you.*
-
----
-
-## 📋 目录 / Table of Contents
-
-- [名人 / Figures](#-名人--figures)
-- [书籍 / Books](#-书籍--books)
-- [品牌 / Brands](#-品牌--brands)
-- [路线图 / Roadmap](#-路线图--roadmap)
-- [贡献 / Contributing](#-贡献--contributing)
-- [许可证 / License](#-许可证--license)
+</div>
 
 ---
 
-## 🧠 名人 / Figures
+## 为什么值得收藏 / Why Star This Repo
 
-> 以某个具体人物的思维方式为核心蒸馏出的 skill。
+- **核心还是人类**：这不是一个“万能 prompt” 仓库，而是一个围绕人物与书籍展开的 skill 索引。
+- **只收真实仓库**：每个条目都应真实存在、公开可访问，而不是概念占位符。
+- **赛道仍然很早**：personalized skills 生态还在快速形成，优质项目分散，集中索引本身就有价值。
+- **中文优先**：默认中文表达，保留必要英文，适合传播、协作和社区共建。
 
-| Repo | 蒸馏对象 / Figure | 简介 / Description |
-|------|-------------------|-------------------|
-| [HughYau/qiushi-skill](https://github.com/HughYau/qiushi-skill) | 毛泽东 / Mao Zedong | 一条总原则 + 九大方法论工具：矛盾论、实践论、调查研究、群众路线…… |
-| [EveryInc/charlie-cfo-skill](https://github.com/EveryInc/charlie-cfo-skill) | 查理·芒格 / Charlie Munger | 自举式 CFO 财务管理：资本纪律、单位经济、现金管理 |
-| [titanwings/colleague-skill](https://github.com/titanwings/colleague-skill) | 任意真实人物 / Any Real Person | 从聊天记录、文档、截图中蒸馏一个真实的人 —— 数字生命 1.0 |
-| [uditgoenka/autoresearch](https://github.com/uditgoenka/autoresearch) | Andrej Karpathy | 受 Karpathy 启发的自主研究循环：修改 → 验证 → 保留/丢弃 → 永远重复 |
-| [haberlah/wardley-mapping](https://github.com/haberlah/wardley-mapping) | Simon Wardley | 交互式 Wardley Map 战略分析 |
+## 这里有什么 / What's Inside
 
-## 📚 书籍 / Books
+- **名人 / Figures**：把某位具体人物的方法论蒸馏成 skill，或直接服务于真实人物蒸馏。
+- **书籍 / Books**：把某本具体作品的方法论、章节结构或写作规则蒸馏成 skill。
 
-> 将某本经典著作的方法论提取为 skill。
+## 快速跳转 / Quick Navigation
 
-| Repo | 著作 / Book | 简介 / Description |
-|------|------------|-------------------|
-| [slavingia/skills](https://github.com/slavingia/skills) | *The Minimalist Entrepreneur* | 每章 → 一个 slash command：/find-community, /validate-idea, /mvp… |
-| [obra/the-elements-of-style](https://github.com/obra/the-elements-of-style) | *The Elements of Style* (1918) | Strunk 的 18 条写作清规，用于文档和用户文案审校 |
-| [luoling8192/software-design-philosophy-skill](https://github.com/luoling8192/software-design-philosophy-skill) | *A Philosophy of Software Design* | John Ousterhout 的软件设计哲学 |
-| [ginobefun/deep-reading-analyst-skill](https://github.com/ginobefun/deep-reading-analyst-skill) | 多本经典 / Multiple Classics | 融合 Dalio《原则》、芒格思维模型、Musk 第一性原理的深度阅读分析 |
+- [精选星辰 / Featured Stars](#精选星辰--featured-stars)
+- [名人 / Figures](#名人--figures)
+- [书籍 / Books](#书籍--books)
+- [收录标准 / Selection Criteria](#收录标准--selection-criteria)
+- [路线图 / Roadmap](#路线图--roadmap)
+- [贡献 / Contributing](#贡献--contributing)
 
-## 🏪 品牌 / Brands
+## 精选星辰 / Featured Stars
 
-> 实体品牌面向 AI 的信息接口——万物皆可 CLI 化，谁说餐厅不可以。
+优先展示最能体现 `person -> skill` 或 `book -> skill` 路径的代表性项目。这里只是导览，不是第三个分类。
 
-| Repo | 品牌 / Brand | 简介 / Description |
-|------|-------------|-------------------|
-| [JinGuYuan/jinguyuan-dumpling-skill](https://github.com/JinGuYuan/jinguyuan-dumpling-skill) | 金谷园饺子馆 | 北邮边上的饺子馆，面向顾客私人 AI 助理的 MCP Skill |
-
----
-
-## 🗺️ 路线图 / Roadmap
-
-- [x] 项目启动，索引框架上线
-- [ ] **Meta-Skill**：输入任意人名 → 自动信息收集 → 提取思维范式 → 自进化蒸馏 → 输出可用 skill
-- [ ] 社区投票与排行榜
+- [HughYau/qiushi-skill](https://github.com/HughYau/qiushi-skill) — 从《毛选》里提炼问题拆解方法，是中文 personalized skill 赛道的代表样本之一。
+- [slavingia/skills](https://github.com/slavingia/skills) — 把一本书拆成一组可调用命令，展示了 `book -> skill` 的清晰路径。
+- [titanwings/colleague-skill](https://github.com/titanwings/colleague-skill) — 直接从聊天记录、文档、截图蒸馏一个真实的人，而不是凭空捏造 persona。
+- [uditgoenka/autoresearch](https://github.com/uditgoenka/autoresearch) — 把 Karpathy 式研究迭代工作流工程化，说明“人物方法论”也能转成可执行 skill。
 
 ---
 
-## 🤝 贡献 / Contributing
+## 名人 / Figures
 
-发现了好的 personalized skill？提 PR 加到对应分类表格中。
+> 以某个具体人物为源头，或直接服务于真实人物蒸馏，形成可调用 skill。
 
-原则：**蒸馏，而非模仿。** 提取思维框架，而非模仿说话语气。
+| Repo | ⭐ | 人物 / Figure | 为什么值得看 / Why it matters |
+|------|----|---------------|--------------------------------|
+| [HughYau/qiushi-skill](https://github.com/HughYau/qiushi-skill) | 1.3k | 毛泽东 / Mao Zedong | 从《毛选》提炼出一条总原则和九大方法论工具，用于现实问题拆解 |
+| [EveryInc/charlie-cfo-skill](https://github.com/EveryInc/charlie-cfo-skill) | 188 | 受 Charlie Munger 启发 / Inspired by Charlie Munger | 将 Munger 式资本纪律、单位经济和现金管理打包成 bootstrap CFO skill |
+| [titanwings/colleague-skill](https://github.com/titanwings/colleague-skill) | 10.7k | 任意真实人物 / Any Real Person | 从聊天记录、文档、截图中蒸馏一个真实的人，做数字化人格延续 |
+| [uditgoenka/autoresearch](https://github.com/uditgoenka/autoresearch) | 3.4k | Andrej Karpathy | 把 Karpathy 式自主研究循环变成可执行 skill：修改、验证、保留或丢弃 |
+| [haberlah/wardley-mapping](https://github.com/haberlah/wardley-mapping) | 2 | Simon Wardley | 将 Wardley 的战略分析方法做成交互式 skill，偏实战策略视角 |
 
-*Found a great personalized skill? PR it into the index. Principle: **Distillation, not imitation.***
+## 书籍 / Books
+
+> 以某本具体书籍为源头，把其中的方法论、结构或写作规则蒸馏成 skill。
+
+| Repo | ⭐ | 书籍 / Book | 为什么值得看 / Why it matters |
+|------|----|-------------|--------------------------------|
+| [slavingia/skills](https://github.com/slavingia/skills) | 7.4k | *The Minimalist Entrepreneur* | 每章对应一个 slash command，是最清晰的 `book -> commands` 样本之一 |
+| [obra/the-elements-of-style](https://github.com/obra/the-elements-of-style) | 330 | *The Elements of Style* | 把 Strunk 的写作规则转成面向 AI 的文风和文案校准能力 |
+| [luoling8192/software-design-philosophy-skill](https://github.com/luoling8192/software-design-philosophy-skill) | 261 | *A Philosophy of Software Design* | 以 Ousterhout 的设计原则为核心，服务于软件设计与代码审视 |
+
+## 收录标准 / Selection Criteria
+
+- 仓库必须 **真实存在**，并且能公开访问。
+- 条目必须能明确对应到 **具体人物**、**具体书籍**，或 **真实人物蒸馏工具**。
+- 核心价值应是 **蒸馏思维框架**，而不是模仿语气、口头禅或角色设定。
+- 优先收录有清晰使用场景、方法论来源和实际可调用形式的项目。
+- 暂不收录无法归属到人物或书籍、也不服务于真实人物蒸馏的大杂烩技能包。
+
+*Distillation, not imitation.*
+
+## 路线图 / Roadmap
+
+- [x] 项目启动，建立中文优先的索引框架
+- [ ] **Meta-Skill**：输入任意人名 -> 自动信息收集 -> 范式提取 -> 自进化蒸馏 -> 输出 skill
+- [ ] 社区榜单：持续追踪高质量 personalized skills 的传播与实用表现
+
+## 贡献 / Contributing
+
+发现了符合标准的仓库，直接提交 PR 更新 `README.md` 对应表格即可。
+
+提交前请确保：
+
+- 仓库真实存在，且能公开访问
+- 分类明确落在 **人物** 或 **书籍**
+- 描述写清楚它为什么值得被收录，而不是只贴标签
+- star 数可写近似值，但不要杜撰
+
+*Found a repo that fits? Open a PR and add it to the right table in `README.md`.*
 
 ---
 
-## 📄 许可证 / License
+## 许可证 / License
 
 [MIT](LICENSE)
 
