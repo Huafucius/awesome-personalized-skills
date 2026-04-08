@@ -22,6 +22,7 @@
 
 - [名人 / Figures](#-名人--figures)
 - [书籍 / Books](#-书籍--books)
+- [品牌 / Brands](#-品牌--brands)
 - [路线图 / Roadmap](#-路线图--roadmap)
 - [贡献 / Contributing](#-贡献--contributing)
 - [许可证 / License](#-许可证--license)
@@ -50,6 +51,14 @@
 | [obra/the-elements-of-style](https://github.com/obra/the-elements-of-style) | *The Elements of Style* (1918) | Strunk 的 18 条写作清规，用于文档和用户文案审校 |
 | [luoling8192/software-design-philosophy-skill](https://github.com/luoling8192/software-design-philosophy-skill) | *A Philosophy of Software Design* | John Ousterhout 的软件设计哲学 |
 | [ginobefun/deep-reading-analyst-skill](https://github.com/ginobefun/deep-reading-analyst-skill) | 多本经典 / Multiple Classics | 融合 Dalio《原则》、芒格思维模型、Musk 第一性原理的深度阅读分析 |
+
+## 🏪 品牌 / Brands
+
+> 实体品牌面向 AI 的信息接口——万物皆可 CLI 化，谁说餐厅不可以。
+
+| Repo | 品牌 / Brand | 简介 / Description |
+|------|-------------|-------------------|
+| [JinGuYuan/jinguyuan-dumpling-skill](https://github.com/JinGuYuan/jinguyuan-dumpling-skill) | 金谷园饺子馆 | 北邮边上的饺子馆，面向顾客私人 AI 助理的 MCP Skill |
 
 ---
 
